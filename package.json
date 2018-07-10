@@ -47,11 +47,7 @@
     "publish": "git push && git push --tags && npm publish"
   },
   "dependencies": {
-    "object-assign": "^4.1.1",
-    "video.js": "^7.0.5",
-    "videojs-contrib-hls": "^5.12.2",
-    "videojs-flash": "^2.1.0",
-    "videojs-hotkeys": "^0.2.20"
+    "video.js": "^7.0.5"
   },
   "expDependencies": {
     "node-sass": "^4.7.2",
@@ -59,6 +55,10 @@
     "vue-video-player": "^5.0.0"
   },
   "devDependencies": {
+    "object-assign": "^4.1.1",
+    "videojs-contrib-hls": "^5.12.2",
+    "videojs-flash": "^2.1.0",
+    "videojs-hotkeys": "^0.2.20",
     "autoprefixer": "^6.7.2",
     "babel-cli": "^6.23.0",
     "babel-core": "^6.24.1",
