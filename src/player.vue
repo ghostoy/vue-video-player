@@ -1,6 +1,7 @@
 <template>
   <div class="video-player" v-if="reseted">
-    <video class="video-js" ref="video"></video>
+    <audio v-if="audio" class="video-js" ref="video"></audio>
+    <video v-else class="video-js" ref="video"></video>
   </div>
 </template>
 
@@ -51,6 +52,10 @@
   export default {
     name: 'video-player',
     props: {
+      audio: {
+        type: Boolean,
+        default: false,
+      },
       start: {
         type: Number,
         default: 0
